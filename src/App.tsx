@@ -1,24 +1,38 @@
 import React from 'react';
-import logo from './logo.svg';
-import './App.css';
+import Header from './components/Header';
+import AdsGroup from './components/AdsGroup';
+import HomeBanner from './components/HomeBanner';
+import FlashDeals from './components/FlashDeals';
+import ProductTab from './components/ProductTab';
+import BestSeller from './components/BestSeller';
+import HomePageBanner from './components/HomePageBanner';
+import Releases from './components/Releases';
+import Container from './components/Container';
+import Category from './components/Category';
+import BannerFooter from './components/BannerFooter';
+import ProductMore from './components/ProductMore';
+import Feature from './components/Feature';
+import Footer from './components/Footer';
+import NotFound from './pages/NotFound';
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.tsx</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div className="wrappage">
+      <Header/>
+      <AdsGroup/>
+      <HomeBanner/>
+      <FlashDeals/>
+      <ProductTab/>
+      <BestSeller/>
+      <HomePageBanner/>
+      <Releases/>
+      <Container/>
+      <Category/>
+      <BannerFooter/>
+      <ProductMore/>
+      <Feature/>
+      <Footer/>
+      {/* <NotFound/> */}
     </div>
   );
 }

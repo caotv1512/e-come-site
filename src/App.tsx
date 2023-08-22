@@ -14,24 +14,19 @@ import ProductMore from './components/ProductMore';
 import Feature from './components/Feature';
 import Footer from './components/Footer';
 import NotFound from './pages/NotFound';
+import HomePage from './pages/HomePage';
+import { Route, Routes } from 'react-router-dom';
+import PageOrder from './pages/PageOrder';
 
 function App() {
   return (
     <div className="wrappage">
-      <Header/>
-      <AdsGroup/>
-      <HomeBanner/>
-      <FlashDeals/>
-      <ProductTab/>
-      <BestSeller/>
-      <HomePageBanner/>
-      <Releases/>
-      <Container/>
-      <Category/>
-      <BannerFooter/>
-      <ProductMore/>
-      <Feature/>
-      <Footer/>
+      <Routes>
+        <Route path="/" element={<HomePage />} />
+        <Route path="/order" element={<PageOrder />} />
+        <Route path="*" element={<NotFound />} />
+      </Routes>
+      {/* <HomePage/> */}
       {/* <NotFound/> */}
     </div>
   );

@@ -3,15 +3,16 @@ import Header from "../components/Header";
 import Feature from "../components/Feature";
 import Footer from "../components/Footer";
 import PageNotFound from "../layouts/PageNotFound";
+import Order from "../layouts/Order";
 
-function NotFound() {
+function PageOrder() {
   return (
     <>
       <Header/>
       {/* <AdsGroup/> */}
       {/* <HomeBanner/> */}
       {/*  */}
-      <PageNotFound/>
+      <Order/>
       {/*  */}
       {/* <BannerFooter/> */}
       {/* <ProductMore/> */}
@@ -21,4 +22,4 @@ function NotFound() {
   );
 }
 
-export default NotFound;
+export default PageOrder;

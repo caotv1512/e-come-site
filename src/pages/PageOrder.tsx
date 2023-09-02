@@ -9,13 +9,7 @@ function PageOrder() {
   return (
     <>
       <Header/>
-      {/* <AdsGroup/> */}
-      {/* <HomeBanner/> */}
-      {/*  */}
       <Order/>
-      {/*  */}
-      {/* <BannerFooter/> */}
-      {/* <ProductMore/> */}
       <Feature/>
       <Footer/>
     </>

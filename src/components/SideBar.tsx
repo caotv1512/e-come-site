@@ -579,28 +579,25 @@ function SideBar() {
             <div className="col-lg-9 widget-left">
               <div className="flex lr">
                 <nav className="main-menu">
-                  <div className="collapse navbar-collapse fa-align-center" id="myNavbar">
+                  <div
+                    className="collapse navbar-collapse fa-align-center"
+                    id="myNavbar"
+                  >
                     <ul className="nav navbar-nav fa-align-center">
                       <li className="level1">
-                        <a href="/#">
-                          <img src="img/icon-diamond.png" alt="" />
-                          <Link to="/">Home</Link>
-                        </a>
+                        <img src="img/icon-diamond.png" alt="" />
+                        <Link to="/">Home</Link>
                       </li>
                       <li className="level1">
-                        <a href="/#">
-                          <Link to="/">Shop</Link>
-                          <span className="h-ribbon h-pos e-skyblue">New</span>
-                        </a>
+                        <Link to="/">Shop</Link>
+                        <span className="h-ribbon h-pos e-skyblue">New</span>
                       </li>
                       <li className="level1">
                         <Link to="/">Page</Link>
                       </li>
                       <li className="level1">
-                        <a href="/#">
-                          <Link to="/">About</Link>
-                          <span className="h-ribbon h-pos e-green">sale</span>
-                        </a>
+                        <Link to="/about">About</Link>
+                        <span className="h-ribbon h-pos e-green">sale</span>
                       </li>
                     </ul>
                   </div>

@@ -8,13 +8,7 @@ function NotFound() {
   return (
     <>
       <Header/>
-      {/* <AdsGroup/> */}
-      {/* <HomeBanner/> */}
-      {/*  */}
       <PageNotFound/>
-      {/*  */}
-      {/* <BannerFooter/> */}
-      {/* <ProductMore/> */}
       <Feature/>
       <Footer/>
     </>

@@ -17,6 +17,7 @@ import NotFound from './pages/NotFound';
 import HomePage from './pages/HomePage';
 import { Route, Routes } from 'react-router-dom';
 import PageOrder from './pages/PageOrder';
+import AboutPage from './pages/AboutPage';
 
 function App() {
   return (
@@ -24,6 +25,7 @@ function App() {
       <Routes>
         <Route path="/" element={<HomePage />} />
         <Route path="/order" element={<PageOrder />} />
+        <Route path="/about" element={<AboutPage />} />
         <Route path="*" element={<NotFound />} />
       </Routes>
       {/* <HomePage/> */}
